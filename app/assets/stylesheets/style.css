@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+.app {
+    background-image: url(/assets/in-game-forest-firewatch-wallpaper-preview-6646dac8dab9ee6cd7a14a50474c13af416fcf307401f2dac3fa87c3813dbd1a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98.3vh;
+}
+
+.working-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.working-area > .posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Whisper", sans-serif;
+    font-size: 9rem;
+    font-weight: 500;
+    color: #ffeb3b;
+    filter: drop-shadow(3px 7px 6px black);
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.logs {
+    margin-top: 34px;
+    margin-bottom: 17px;
+}
+
+.logs > a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffeb3b;
+    font-size: 2rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.logs2 > a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffeb3b;
+    font-size: 1.4rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 4px 2px black);
+    position: relative;
+    top: 36px;
+    left: -2px;
+}
+
+.logs3 > a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffeb3b;
+    font-size: 1.4rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 4px 2px black);
+    position: relative;
+    top: 26px;
+    left: -38px;
+}
+
+.user_name {
+    color: #376de9;
+    position: absolute;
+    top: 211px;
+    left: 63px;
+    font-family: "Whisper", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    width: 197px;
+    overflow-wrap: anywhere;
+    line-height: 23px;
+}
+
+.text {
+    color: rgb(108 53 58);
+    position: absolute;
+    top: 51px;
+    left: 65px;
+    font-family: "Whisper", sans-serif;
+    font-size: 2rem;
+    max-width: 188px;
+    overflow-wrap: anywhere;
+}
+
+.post {
+    background-image: url("Untitled-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 277px;
+    min-width: 314px;
+}
+
+.container {
+    position: relative;
+}
+
+.user_label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffeb3b;
+    font-size: 1.4rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 4px 2px black);
+}
+.user_label2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffeb3b;
+    font-size: 1.1rem;
+    font-weight: 800;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.field {
+    margin-top: 13px;
+}

@@ -1,0 +1,9 @@
+<div class="post">
+  <p class="container">
+    <% if user_signed_in? %>
+      <strong class="user_name"><%= post.user.username %>:</strong>
+    <% end %>
+    <span class="text"><%= post.post %></span>
+  </p>
+
+</div>

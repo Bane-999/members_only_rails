@@ -1,0 +1,17 @@
+<h1>Your Secrets</h1>
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>    
+  <% end %>
+</div>
+
+<div class="logs">
+  <% if user_signed_in? %>
+    <%= link_to "New post", new_post_path %><br>
+    <%= link_to "Logout", destroy_user_session_path %>
+  <% else %>
+    <%= link_to "Log In", new_user_session_path %><br>
+    <%= link_to "Sign In", new_user_registration_path %>
+  <% end %>
+</div>
