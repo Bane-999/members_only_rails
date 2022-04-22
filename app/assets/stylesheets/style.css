@@ -76,8 +76,8 @@ h1 {
 .user_name {
     color: #376de9;
     position: absolute;
-    top: 211px;
-    left: 63px;
+    top: 287px;
+    left: 69px;
     font-family: "Whisper", sans-serif;
     font-size: 1.7rem;
     font-weight: 600;
@@ -93,7 +93,7 @@ h1 {
     left: 65px;
     font-family: "Whisper", sans-serif;
     font-size: 2rem;
-    max-width: 188px;
+    max-width: 262px;
     overflow-wrap: anywhere;
 }
 
@@ -101,8 +101,8 @@ h1 {
     background-image: url("Untitled-1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 277px;
-    min-width: 314px;
+    height: 381px;
+    min-width: 403px;
 }
 
 .container {
